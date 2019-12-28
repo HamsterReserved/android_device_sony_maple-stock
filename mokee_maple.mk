@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/sony/maple/device.mk)
 
 # Inherit some common MK stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 
-PRODUCT_NAME := mk_maple
+PRODUCT_NAME := mokee_maple
 PRODUCT_DEVICE := maple
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
